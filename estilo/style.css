@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+JP+N&display=swap');
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+JP+N&display=swap');
+}
+
+body{
+    font-family: 'Roboto';
+    font-size: 1em;
+    background-color: gray;
+    color: yellow;
+    text-align: justify;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    font-size: 1.2em;
+}
+
+nav{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav>a{
+    font-size: 19px;
+    color: rgba(194, 197, 0, 0.932);
+    background-color: rgb(243, 235, 235);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.678);
+    margin: 0 2px 0 2px;
+}
+
+nav>a:hover{
+    transition: 0.7s;
+    color: rgb(251, 255, 0);
+    background-color: rgb(70, 70, 70);
+}
+
+img{
+    height: 300px;
+    width: 600px;
+    display: block;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: black;
+    color: azure;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    margin: auto;
+}
